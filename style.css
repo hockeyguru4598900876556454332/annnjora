@@ -1,0 +1,124 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.9;
+    color:forestgreen;
+}
+
+header {
+    background:blue;
+    color: black;
+    padding: 20px 0;
+    text-align: right;
+}
+
+header .logo img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: bold ;
+    font-size: 1.4em;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: forestgreen;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero .cta-button {
+    background: #ff6347;
+    color: firebrick;
+    padding: 25px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+main section {
+    padding: 20px;
+    text-align:center;
+    background-image:url('Black\ White\ Playful\ Type\ Recruitment\ LinkedIn\ Video\ Ad.mp4');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#testimonials .testimonial {
+    background: brown;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .social-media a {
+    color: forestgreen;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: url('learning.png');
+    color: forestgreen;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004d66;
+}
