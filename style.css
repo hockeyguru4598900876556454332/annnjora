@@ -58,10 +58,6 @@ nav ul li a {
 main section {
     padding: 20px;
     text-align:center;
-    background-image:url('Black\ White\ Playful\ Type\ Recruitment\ LinkedIn\ Video\ Ad.mp4');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
 }
 
@@ -113,7 +109,6 @@ input, textarea {
 
 button {
     padding: 10px 20px;
-    background: url('learning.png');
     color: forestgreen;
     border: none;
     cursor: pointer;
